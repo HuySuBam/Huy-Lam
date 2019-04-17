@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <HBox layoutX="14.0" layoutY="108.0" prefHeight="95.0" prefWidth="576.0">
+            <children>
+                <TextField fx:id="areaDisplay" alignment="CENTER_RIGHT" editable="false" prefHeight="109.0" prefWidth="576.0" text="0">
+                    <font>
+                        <Font size="44.0" />
+                    </font>
+                </TextField>
+            </children>
+        </HBox>
+        <Label layoutX="24.0" layoutY="8.0" prefHeight="55.0" prefWidth="141.0" text="AURORA">
+            <font>
+                <Font size="34.0" />
+            </font>
+        </Label>
+        <Label layoutX="24.0" layoutY="57.0" prefHeight="38.0" prefWidth="190.0" text="Dual Power Calculator">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="214.0" layoutY="17.0" prefHeight="38.0" prefWidth="110.0" text="DT642">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Button layoutX="50.0" layoutY="431.0" mnemonicParsing="false" onAction="#One" prefHeight="55.0" prefWidth="71.0" text="1" AnchorPane.bottomAnchor="112.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="479.0" AnchorPane.topAnchor="431.0">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Button>
+        <Button layoutX="50.0" layoutY="501.0" mnemonicParsing="false" onAction="#Zero" prefHeight="57.0" prefWidth="71.0" text="0" AnchorPane.bottomAnchor="42.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="479.0" AnchorPane.topAnchor="501.0">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Button>
+        <Button layoutX="50.0" layoutY="351.0" mnemonicParsing="false" onAction="#Four" prefHeight="55.0" prefWidth="71.0" text="4">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Button>
+        <Button layoutX="50.0" layoutY="273.0" mnemonicParsing="false" onAction="#Seven" prefHeight="55.0" prefWidth="71.0" text="7">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Button>
+        <Button layoutX="158.0" layoutY="273.0" mnemonicParsing="false" onAction="#Eight" prefHeight="55.0" prefWidth="71.0" text="8">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Button>
+        <Button layoutX="158.0" layoutY="351.0" mnemonicParsing="false" onAction="#Five" prefHeight="55.0" prefWidth="71.0" text="5">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Button>
+        <Button layoutX="158.0" layoutY="432.0" mnemonicParsing="false" onAction="#Two" prefHeight="55.0" prefWidth="71.0" text="2">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Button>
+        <Button layoutX="158.0" layoutY="502.0" mnemonicParsing="false" onAction="#switchSign" prefHeight="55.0" prefWidth="71.0" text="+/-">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Button>
+        <Button layoutX="265.0" layoutY="273.0" mnemonicParsing="false" onAction="#Nine" prefHeight="55.0" prefWidth="71.0" text="9">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Button>
+        <Button layoutX="265.0" layoutY="351.0" mnemonicParsing="false" onAction="#Six" prefHeight="55.0" prefWidth="71.0" text="6">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Button>
+        <Button layoutX="265.0" layoutY="432.0" mnemonicParsing="false" onAction="#Three" prefHeight="55.0" prefWidth="71.0" text="3">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Button>
+        <Button layoutX="265.0" layoutY="502.0" mnemonicParsing="false" onAction="#addDecimal" prefHeight="55.0" prefWidth="71.0" text=".">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Button>
+        <Button layoutX="377.0" layoutY="273.0" mnemonicParsing="false" onAction="#insertPercentage" prefHeight="55.0" prefWidth="71.0" text="\%">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Button>
+        <Button layoutX="377.0" layoutY="351.0" mnemonicParsing="false" onAction="#multiplyNumbers" prefHeight="55.0" prefWidth="71.0" text="X">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Button>
+        <Button layoutX="377.0" layoutY="432.0" mnemonicParsing="false" onAction="#addNumbers" prefHeight="125.0" prefWidth="71.0" text="+">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Button>
+        <Button layoutX="483.0" layoutY="273.0" mnemonicParsing="false" onAction="#getSQRT" prefHeight="55.0" prefWidth="71.0" text="√">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Button>
+        <Button layoutX="483.0" layoutY="351.0" mnemonicParsing="false" onAction="#divideNumbers" prefHeight="55.0" prefWidth="71.0" text="÷">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Button>
+        <Button layoutX="483.0" layoutY="432.0" mnemonicParsing="false" onAction="#minusNumbers" prefHeight="55.0" prefWidth="71.0" text="-">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Button>
+        <Button layoutX="483.0" layoutY="502.0" mnemonicParsing="false" onAction="#getTotalAns" prefHeight="55.0" prefWidth="71.0" text="=">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Button>
+        <Button layoutX="50.0" layoutY="213.0" mnemonicParsing="false" onAction="#deleteLastInt" prefHeight="31.0" prefWidth="71.0" text="→">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Button>
+        <Button layoutX="158.0" layoutY="213.0" mnemonicParsing="false" onAction="#insertPower" prefHeight="31.0" prefWidth="71.0" text="^">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Button>
+        <Button layoutX="377.0" layoutY="213.0" mnemonicParsing="false" onAction="#addPi" prefHeight="31.0" prefWidth="71.0" text="π">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Button>
+        <Button layoutX="483.0" layoutY="213.0" mnemonicParsing="false" onAction="#clearInt" prefHeight="31.0" prefWidth="71.0" text="C/CE">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
